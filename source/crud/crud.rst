@@ -320,7 +320,7 @@ Read
     /**
      * The number of documents to return per batch.
      *
-     * This is combined with limit to create the OP_QUERY numberToReturn value.
+     * In servers < 3.2, this is combined with limit to create the OP_QUERY numberToReturn value.
      *
      * The default is no value: the driver accepts the server default batch size.
      *
@@ -354,7 +354,7 @@ Read
     /**
      * The maximum number of documents to return.
      *
-     * This is combined with batchSize to create the OP_QUERY numberToReturn value.
+     * In servers < 3.2, this is combined with batchSize to create the OP_QUERY numberToReturn value.
      *
      * The default is no limit.
      *
