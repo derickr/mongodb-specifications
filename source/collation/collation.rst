@@ -205,9 +205,10 @@ There should be no backwards compatibility concerns.
 Reference Implementation
 ========================
 
-Reference Implementation: 
-  `RUBY-1126 <https://jira.mongodb.org/browse/RUBY-1126>`_
-  `JAVA-2241 <https://jira.mongodb.org/browse/JAVA-2241>`_
+Reference Implementation:
+
+-  `RUBY-1126 <https://jira.mongodb.org/browse/RUBY-1126>`_
+-  `JAVA-2241 <https://jira.mongodb.org/browse/JAVA-2241>`_
 
 Q & A
 =====
@@ -225,4 +226,4 @@ Q: How do I create a collection with default collation? Does it affect my existi
 Version History
 ===============
 
-2016-08-31: version 1.0.
+- 2016-08-31: version 1.0.
